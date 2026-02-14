@@ -1,5 +1,5 @@
-🚚 Logistics Optimization for Delivery Routes – Flipkart
-📌 Project Overview
+# 🚚 Logistics Optimization for Delivery Routes – Flipkart
+## 📌 Project Overview
 
 This project focuses on optimizing Flipkart’s delivery operations by analyzing logistics data using SQL. With increasing order volumes across metros and Tier-2/Tier-3 cities, delivery delays, route inefficiencies, and warehouse bottlenecks significantly impact operational cost and customer satisfaction.
 
@@ -11,7 +11,7 @@ C4_ Project_ Logistics Optimiza…
 
 , the objective is to leverage structured query techniques to extract meaningful business insights from logistics data.
 
-🎯 Project Objectives
+## 🎯 Project Objectives
 
 Analyze delivery delays and identify root causes.
 
@@ -23,7 +23,7 @@ Build advanced KPIs for operational decision-making.
 
 Provide actionable, data-driven recommendations for logistics improvement.
 
-🗂️ Dataset Description
+## 🗂️ Dataset Description
 
 The project uses five structured relational datasets:
 
@@ -71,7 +71,7 @@ Delay Reasons
 
 Delivery Speed & Efficiency
 
-🛠️ Technical Implementation
+## 🛠️ Technical Implementation
 
 SQL Concepts Used
 
@@ -95,8 +95,8 @@ Database Type: Relational SQL Database
 
 Analysis Approach: Query-based logistics intelligence system
 
-📊 Key Analytical Modules
-1️⃣ Data Cleaning & Preparation
+## 📊 Key Analytical Modules
+### 1️⃣ Data Cleaning & Preparation
 
 Removed duplicate Order_ID records.
 
@@ -106,7 +106,7 @@ Standardized date formats (YYYY-MM-DD).
 
 Flagged invalid delivery records.
 
-2️⃣ Delivery Delay Analysis
+### 2️⃣ Delivery Delay Analysis
 
 Calculated delivery delay (in days) per order.
 
@@ -114,7 +114,7 @@ Identified Top 10 delayed routes.
 
 Ranked orders by delay within each warehouse.
 
-3️⃣ Route Optimization Insights
+### 3️⃣ Route Optimization Insights
 
 Computed:
 
@@ -132,7 +132,7 @@ Worst efficiency ratio
 
 Generated route optimization recommendations.
 
-4️⃣ Warehouse Performance Analysis
+### 4️⃣ Warehouse Performance Analysis
 
 Ranked warehouses by:
 
@@ -144,7 +144,7 @@ Identified bottleneck warehouses using CTEs.
 
 Compared total vs delayed shipments.
 
-5️⃣ Delivery Agent Performance
+### 5️⃣ Delivery Agent Performance
 
 Ranked agents by on-time percentage (route-wise).
 
@@ -154,7 +154,7 @@ Compared top 5 vs bottom 5 agents’ average speed.
 
 Suggested performance improvement strategies.
 
-6️⃣ Shipment Tracking Analytics
+### 6️⃣ Shipment Tracking Analytics
 
 Extracted last checkpoint per order.
 
@@ -162,7 +162,7 @@ Identified most common delay reasons.
 
 Flagged shipments with >2 delayed checkpoints.
 
-7️⃣ Advanced KPI Reporting
+### 7️⃣ Advanced KPI Reporting
 
 Average delivery delay per region.
 
@@ -170,7 +170,7 @@ On-time delivery percentage.
 
 Average traffic delay per route.
 
-📈 Business Insights & Impact
+## 📈 Business Insights & Impact
 
 This project enables:
 
@@ -199,7 +199,7 @@ The system supports data-driven decision-making to reduce delays, lower logistic
 │   └── Shipment_Tracking.csv
 └── README.md
 
-📹 Deliverables
+## 📹 Deliverables
 
 Complete SQL Script (Tasks 1–7)
 
@@ -229,6 +229,6 @@ Performance Optimization Analysis
 
 Analytical Storytelling
 
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates how structured SQL analytics can transform raw logistics data into actionable intelligence. By systematically analyzing delivery routes, warehouse performance, shipment tracking, and agent efficiency, the system uncovers inefficiencies and supports scalable logistics optimization.
